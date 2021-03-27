@@ -1,0 +1,4 @@
+[
+	{ "keys": ["f5"], "command": "refresh_folder_list" },
+	{ "keys": ["super+d"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} }
+]
