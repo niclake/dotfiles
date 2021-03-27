@@ -1,0 +1,8 @@
+[2021-03-26 21:40:56.489] [info] [console_user_server] version 13.3.0
+[2021-03-26 21:40:56.637] [info] [console_user_server] receiver is initialized
+[2021-03-26 21:40:56.637] [info] [console_user_server] receiver: bound
+[2021-03-26 21:40:56.637] [info] [console_user_server] grabber_client is started.
+[2021-03-26 21:40:56.637] [info] [console_user_server] grabber_client is connected.
+[2021-03-26 21:40:56.974] [info] [console_user_server] Load /Users/niclake/.config/karabiner/karabiner.json...
+[2021-03-26 21:40:56.977] [info] [console_user_server] core_configuration is updated.
+[2021-03-26 21:40:57.138] [info] [console_user_server] Check for updates...
