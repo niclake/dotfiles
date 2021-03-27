@@ -1,0 +1,25 @@
+[user]
+  name = Nic Lake
+  email = <PUT EMAIL HERE>
+[core]
+  # editor = vim
+  editor = nano
+  excludesfile = ~/.gitignore
+  hooksPath = ~/.config/git/hooks
+[push]
+  default = simple
+[merge]
+  conflictStyle = diff3
+[fetch]
+  prune = true
+[filter "lfs"]
+  clean = git-lfs clean -- %f
+  smudge = git-lfs smudge -- %f
+  process = git-lfs filter-process
+  required = true
+[credential]
+  helper = osxkeychain
+[url "git@github.com:"]
+  insteadOf = https://github.com/
+[include]
+  path = ~/.gitconfig.local

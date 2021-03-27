@@ -1,9 +1,11 @@
 .CFUserTextEncoding
 .DS_Store
+.Trash/
 .bash_history
 .bash_sessions/
 .dropbox/
 .local/
+.ssh/
 .subversion/
 .zsh_history
 Applications/

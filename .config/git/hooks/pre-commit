@@ -1,0 +1,5 @@
+#!/usr/bin/env sh
+if [ -x bin/pre-commit-schema-dump ]; then
+    bin/pre-commit-schema-dump
+fi
+
