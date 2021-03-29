@@ -10,7 +10,7 @@ This repo contains the dotfiles that I utilize on all of my Mac machines. I've e
 
 ### zsh vs. bash
 
-As of 2019, MacOS now utilizes `zsh` as its primary shell. I've left my `bash` config files here in case I need it (current as of March 2021), but have made the switch over to using `zsh` using [ScriptingOSX's guide](https://scriptingosx.com/2019/06/moving-to-zsh/).
+As of 2019, MacOS now utilizes `zsh` as its primary shell. I've left my `bash` config files here in case I need it (current as of March 2021), but have made the switch over to using `zsh` using [ScriptingOSX's guide](https://scriptingosx.com/2019/06/moving-to-zsh/). Using `.zlogin` to hold all of my data to leave `.zshrc` available for `oh-my-zsh` and other plugins.
 
 ### Sublime Text Package List
 
@@ -18,3 +18,4 @@ As of 2019, MacOS now utilizes `zsh` as its primary shell. I've left my `bash` c
 - Alignment
 - CSS Format
 - SideBarEnhancements
+- BracketHighlighter
