@@ -5,6 +5,8 @@
 	],
 	"installed_packages":
 	[
+		"BracketHighlighter",
+		"Package Control",
 		"Theme - Flatland"
 	]
 }
