@@ -1,3 +1,5 @@
+export BASH_SILENCE_DEPRECATION_WARNING=1
+
 # Aliases
 alias be='bundle exec'
 alias be1='bundle exec rails s'
