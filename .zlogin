@@ -57,22 +57,15 @@ GIT_PS1_SHOWSTASHSTATE=true
 GIT_PS1_SHOWUNTRACKEDFILES=true
 GIT_PS1_SHOWUPSTREAM=auto
 setopt prompt_subst
+# Left side prompt
+# Output: "niclake@[compname]>[current_dir]>[git status]> "
 if [ "$color_prompt" = yes ]; then
     if [ -n "$POWERLINE" ]; then
-        # PS1='${debian_chroot:+($debian_chroot)}\[\033[30;42m\]\u@\h\[\033[21;32;44m\]\[\033[30m\]\w\[\033[34m\]$(__git_ps1 "\[\033[21;34;105m\]\[\033[30m\]%s\[\033[95m\]")\[\033[49m\]\[\033[0m\]'
-        PROMPT='test'
+        PROMPT='POWERLINE - config in .zlogin'
     else
-        # PS1='${debian_chroot:+($debian_chroot)}\[\033[1;32m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[0m\]$(__git_ps1 "@\[\033[1;35m\]%s\[\033[0m\]")\[\033[32m\]\$\[\033[0m\] '
         PROMPT='%K{green}%F{black}%n@%m%K{blue}%F{green}%f%k%K{blue}%~%f%k%s%K{magenta}%F{blue}%F{black}$(__git_ps1 "%s")%K{default}%F{magenta}%f%k '
     fi
 else
-    # PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w$(__git_ps1 "@%s")\$ '
-    PROMPT='test3'
+    PROMPT='color_prompt=no - config in .zlogin'
 fi
 unset color_prompt force_color_prompt
-
-# Left side prompt
-# niclake@Normandy:~/Documents/github@master*%=$
-# export PS1='%B%K{green}%~%k%b $ '
-# export PS1='%(?.%F{green}√.%F{red}?%?)%f %B%F{240}%~%f%b %# '
-# PROMPT='%K{green}%F{black}%n@%m%K{blue}%F{green}%f%k%K{blue}:%~%K{default}%F{blue}%f%k%s$(__git_ps1 "@%K{magenta}%s%K{default}%F{magenta}%f%k") %(?.%F{green}$.%F{red}?%?)%f '
