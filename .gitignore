@@ -5,8 +5,10 @@
 .bash_history
 .bash_sessions/
 .dropbox/
+.python_history
 .ssh/
 .subversion/
+.zcompdump*
 .zsh_history
 Applications/
 Desktop/
