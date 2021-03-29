@@ -9,7 +9,7 @@
 .ssh/
 .subversion/
 .zcompdump
-.zcompdump-*
+*.zcompdump-*
 .zsh_history
 Applications/
 Desktop/
