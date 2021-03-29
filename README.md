@@ -19,3 +19,7 @@ As of 2019, MacOS now utilizes `zsh` as its primary shell. I've left my `bash` c
 - CSS Format
 - SideBarEnhancements
 - BracketHighlighter
+
+### Terminal commands
+
+- `set completion-ignore-case on` for case insensitive autocomplete
