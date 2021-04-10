@@ -1,3 +1,6 @@
+source $HOME/.zshenv
+eval "$(rbenv init - zsh)"
+
 # Aliases
 alias be='bundle exec'
 alias be1='bundle exec rails s'
@@ -7,6 +10,7 @@ alias be4='bundle exec script/delayed_job run'
 alias lsa='ls -la'
 alias dbnuke='be rake db:drop db:create db:migrate db:seed'
 alias python='python3'
+alias displays='displayplacer "id:A3A1D2BC-173A-C0A3-982D-80DBCAD81789 res:1792x1120 hz:59 color_depth:4 scaling:on origin:(0,0) degree:0" "id:7BA2C2B2-441E-62F6-80F3-1F39973DFE6A res:1920x1080 hz:60 color_depth:8 scaling:off origin:(-1020,-1080) degree:0" "id:73E9140B-E9E4-A1D0-CF3F-A25229D81644 res:1920x1080 hz:60 color_depth:8 scaling:off origin:(900,-1080) degree:0"'
 
 # zsh options
 setopt no_case_glob

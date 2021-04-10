@@ -6,7 +6,6 @@
 .bash_sessions/
 .dropbox/
 .python_history
-.ssh/
 .subversion/
 .zcompdump
 *.zcompdump-*
